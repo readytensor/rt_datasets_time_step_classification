@@ -17,3 +17,4 @@ __pycache__/
 *.ipynb_checkpoints/
 
 test.ipynb
+datasets/raw/mosad/datasets
