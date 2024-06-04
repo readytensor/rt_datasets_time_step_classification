@@ -227,13 +227,6 @@ def generate_schemas(
             dataset_name, dataset_row, dataset, features_config
         )
 
-        # past_covariates, future_covariates, static_covariates = create_feature_section(
-        #     dataset_name, dataset_row, dataset, features_config
-        # )
-
-        # schema["pastCovariates"] = past_covariates
-        # schema["staticCovariates"] = static_covariates
-
         schemas.append(schema)
         dataset_names.append(dataset_name)
 

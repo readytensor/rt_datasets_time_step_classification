@@ -1,0 +1,4 @@
+model_category,dataset_num,name,title,description,frequency,target_name,target_description,use_dataset,is_smoke_test,encoding
+time_series_annotation,1,basic_motions,Basic Motion,...,OTHER,label,label,1,0,utf-8
+time_series_annotation,2,cricket,Cricket,...,OTHER,label,label,1,0,utf-8
+time_series_annotation,3,ecg5000,ECG5000,...,OTHER,label,label,1,0,utf-8
