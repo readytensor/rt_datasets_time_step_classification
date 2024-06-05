@@ -1,0 +1,52 @@
+{
+  "title": "hmm_continuous",
+  "description": "...",
+  "modelCategory": "time_series_annotation",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "frequency": "OTHER",
+  "idField": {
+    "name": "sample_id",
+    "description": "..."
+  },
+  "timeField": {
+    "name": "timestep",
+    "description": "...",
+    "dataType": "INT",
+    "example": 0
+  },
+  "target": {
+    "name": "label",
+    "description": "label",
+    "classes": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "features": [
+    {
+      "name": "observation_dim_1",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 0.3238,
+      "nullable": false
+    },
+    {
+      "name": "observation_dim_2",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -1.1343,
+      "nullable": false
+    },
+    {
+      "name": "observation_dim_3",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.9888,
+      "nullable": false
+    }
+  ]
+}
