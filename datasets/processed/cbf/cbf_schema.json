@@ -1,0 +1,37 @@
+{
+  "title": "CBF",
+  "description": "...",
+  "modelCategory": "time_series_annotation",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "frequency": "OTHER",
+  "idField": {
+    "name": "series_id",
+    "description": "..."
+  },
+  "timeField": {
+    "name": "timestep",
+    "description": "...",
+    "dataType": "INT",
+    "example": 0
+  },
+  "target": {
+    "name": "label",
+    "description": "label",
+    "classes": [
+      1,
+      2,
+      3
+    ]
+  },
+  "features": [
+    {
+      "name": "dim_0",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.46427649,
+      "nullable": false
+    }
+  ]
+}
