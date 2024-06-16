@@ -1,0 +1,201 @@
+{
+  "title": "NATOPS",
+  "description": "...",
+  "modelCategory": "time_series_annotation",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "frequency": "OTHER",
+  "idField": {
+    "name": "series_id",
+    "description": "..."
+  },
+  "timeField": {
+    "name": "timestep",
+    "description": "...",
+    "dataType": "INT",
+    "example": 0
+  },
+  "target": {
+    "name": "label",
+    "description": "label",
+    "classes": [
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0
+    ]
+  },
+  "features": [
+    {
+      "name": "dim_0",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.372758,
+      "nullable": false
+    },
+    {
+      "name": "dim_1",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -1.821679,
+      "nullable": false
+    },
+    {
+      "name": "dim_2",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.846321,
+      "nullable": false
+    },
+    {
+      "name": "dim_3",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 0.465208,
+      "nullable": false
+    },
+    {
+      "name": "dim_4",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -2.015072,
+      "nullable": false
+    },
+    {
+      "name": "dim_5",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.839242,
+      "nullable": false
+    },
+    {
+      "name": "dim_6",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.564097,
+      "nullable": false
+    },
+    {
+      "name": "dim_7",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.796225,
+      "nullable": false
+    },
+    {
+      "name": "dim_8",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.149604,
+      "nullable": false
+    },
+    {
+      "name": "dim_9",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 0.599967,
+      "nullable": false
+    },
+    {
+      "name": "dim_10",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.823936,
+      "nullable": false
+    },
+    {
+      "name": "dim_11",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.28614,
+      "nullable": false
+    },
+    {
+      "name": "dim_12",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.507478,
+      "nullable": false
+    },
+    {
+      "name": "dim_13",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -1.369001,
+      "nullable": false
+    },
+    {
+      "name": "dim_14",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.51599,
+      "nullable": false
+    },
+    {
+      "name": "dim_15",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 0.577993,
+      "nullable": false
+    },
+    {
+      "name": "dim_16",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -1.534954,
+      "nullable": false
+    },
+    {
+      "name": "dim_17",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.67319,
+      "nullable": false
+    },
+    {
+      "name": "dim_18",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.536343,
+      "nullable": false
+    },
+    {
+      "name": "dim_19",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -1.626957,
+      "nullable": false
+    },
+    {
+      "name": "dim_20",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.594337,
+      "nullable": false
+    },
+    {
+      "name": "dim_21",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 0.619205,
+      "nullable": false
+    },
+    {
+      "name": "dim_22",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -1.771773,
+      "nullable": false
+    },
+    {
+      "name": "dim_23",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.810086,
+      "nullable": false
+    }
+  ]
+}

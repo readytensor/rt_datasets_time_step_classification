@@ -3,3 +3,6 @@ time_series_annotation,1,strawberry,Strawberry,...,OTHER,label,label,1,0,utf-8
 time_series_annotation,2,cbf,CBF,...,OTHER,label,label,1,0,utf-8
 time_series_annotation,3,lightning7,lightning7,...,OTHER,label,label,1,0,utf-8
 time_series_annotation,4,hmm_continuous,hmm_continuous,"The HMM Continuous Timeseries Dataset is a synthetic dataset generated using a Hidden Markov Model with continuous valued observations, designed for timeseries annotation and analysis tasks. Each sample features variable-length multivariate timeseries data with corresponding state labels, providing a complex and diverse testbed for advanced timeseries algorithms.",OTHER,label,Label for each time step in the sample,1,0,utf-8
+time_series_annotation,5,mosad_fold_0,MOSAD,...,OTHER,activities,label,1,0,utf-8
+time_series_annotation,6,pen_digits,pen_digits,...,OTHER,label,label,1,0,utf-8
+time_series_annotation,7,natops,NATOPS,...,OTHER,label,label,1,0,utf-8

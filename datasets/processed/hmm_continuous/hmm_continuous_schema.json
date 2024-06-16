@@ -19,7 +19,12 @@
   "target": {
     "name": "label",
     "description": "Label for each time step in the sample",
-    "classes": [0, 1, 2, 3]
+    "classes": [
+      0,
+      1,
+      2,
+      3
+    ]
   },
   "features": [
     {
