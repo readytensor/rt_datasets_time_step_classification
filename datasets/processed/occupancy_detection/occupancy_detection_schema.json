@@ -1,0 +1,64 @@
+{
+  "title": "RoomOccupanyDetection",
+  "description": "Experimental data used for binary classification (room occupancy) from Temperature,Humidity,Light and CO2. Ground-truth occupancy was obtained from time stamped pictures that were taken every minute.",
+  "modelCategory": "time_series_annotation",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "frequency": "SECONDLY",
+  "idField": {
+    "name": "id",
+    "description": "Unique series id"
+  },
+  "timeField": {
+    "name": "date",
+    "description": "The date and time of the observation",
+    "dataType": "DATETIME",
+    "example": "2015-02-02 14:19:00"
+  },
+  "target": {
+    "name": "Occupancy",
+    "description": "0 for not occupied, 1 for occupied status",
+    "classes": [
+      0.0,
+      1.0
+    ]
+  },
+  "features": [
+    {
+      "name": "Temperature",
+      "description": "Temperature of the room in Celsius",
+      "dataType": "NUMERIC",
+      "example": 23.7,
+      "nullable": false
+    },
+    {
+      "name": "Humidity",
+      "description": "Relative humidity percent",
+      "dataType": "NUMERIC",
+      "example": 26.272,
+      "nullable": false
+    },
+    {
+      "name": "Light",
+      "description": "Light in Lux",
+      "dataType": "NUMERIC",
+      "example": 585.2,
+      "nullable": false
+    },
+    {
+      "name": "CO2",
+      "description": "CO2 lin ppm",
+      "dataType": "NUMERIC",
+      "example": 749.2,
+      "nullable": false
+    },
+    {
+      "name": "HumidityRatio",
+      "description": "Derived quantity from temperature and relative humidity in kgwater-vapor/kg-air",
+      "dataType": "NUMERIC",
+      "example": 0.0047641630241641,
+      "nullable": false
+    }
+  ]
+}
