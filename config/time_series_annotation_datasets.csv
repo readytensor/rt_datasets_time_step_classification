@@ -5,3 +5,6 @@ time_series_annotation,3,hmm_continuous,hmm_continuous,"The HMM Continuous Times
 time_series_annotation,4,pen_digits,pen_digits,...,OTHER,label,label,1,0,utf-8
 time_series_annotation,5,natops,NATOPS,...,OTHER,label,label,1,0,utf-8
 time_series_annotation,6,arrow_head,ArrowHead,...,OTHER,label,label,1,0,utf-8
+time_series_annotation,7,occupancy_detection,RoomOccupanyDetection,"Experimental data used for binary classification (room occupancy) from Temperature,Humidity,Light and CO2. Ground-truth occupancy was obtained from time stamped pictures that were taken every minute.",SECONDLY,Occupancy,"0 for not occupied, 1 for occupied status",1,0,utf-8
+time_series_annotation,9,pamp2_fold_0,PAMP2_fold0,...,OTHER,activity_id,label,1,0,utf-8
+time_series_annotation,9,pamp2_fold_1,PAMP2_fold1,...,OTHER,activity_id,label,1,0,utf-8
