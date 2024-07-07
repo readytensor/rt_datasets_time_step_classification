@@ -1,0 +1,76 @@
+{
+  "title": "HAR70+",
+  "description": "The HAR70+ dataset contains recordings of 18 older adult participants wearing two 3-axial Axivity AX3 accelerometers for around 40 minutes in a semi-structured free-living setting. The participants' age was between 70 and 95 years. Five of the 18 subjects used walking aids during data recording. One sensor was attached to the right front thigh and the other to the lower back. The provided sampling rate is 50Hz. Video recordings of a chest-mounted camera were used to annotate the performed activities frame-by-frame.",
+  "modelCategory": "time_series_annotation",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "frequency": "OTHER",
+  "idField": {
+    "name": "subject_id",
+    "description": "Unique subject identifier"
+  },
+  "timeField": {
+    "name": "timestamp",
+    "description": "Time of observation",
+    "dataType": "DATETIME",
+    "example": "2021-06-11 10:24:37.958"
+  },
+  "target": {
+    "name": "label",
+    "description": "Activity performed by the subject (1: walking  3: shuffling 4: stairs (ascending) 5: stairs (descending) 6: standing 7: sitting\t8: lying)",
+    "classes": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "features": [
+    {
+      "name": "back_x",
+      "description": "acceleration of back sensor in x-direction (down) in the unit g",
+      "dataType": "NUMERIC",
+      "example": -0.978027,
+      "nullable": false
+    },
+    {
+      "name": "back_y",
+      "description": "acceleration of back sensor in y-direction (left) in the unit g",
+      "dataType": "NUMERIC",
+      "example": -0.223633,
+      "nullable": false
+    },
+    {
+      "name": "back_z",
+      "description": "acceleration of back sensor in z-direction (forward) in the unit g",
+      "dataType": "NUMERIC",
+      "example": 0.049561,
+      "nullable": false
+    },
+    {
+      "name": "thigh_x",
+      "description": "acceleration of thigh sensor in x-direction (down) in the unit g",
+      "dataType": "NUMERIC",
+      "example": -0.992676,
+      "nullable": false
+    },
+    {
+      "name": "thigh_y",
+      "description": "acceleration of thigh sensor in y-direction (left) in the unit g",
+      "dataType": "NUMERIC",
+      "example": 0.125,
+      "nullable": false
+    },
+    {
+      "name": "thigh_z",
+      "description": "acceleration of thigh sensor in z-direction (forward) in the unit g",
+      "dataType": "NUMERIC",
+      "example": -0.1521,
+      "nullable": false
+    }
+  ]
+}
