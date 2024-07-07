@@ -14,7 +14,7 @@
     "name": "timestamp",
     "description": "Time of observation",
     "dataType": "DATETIME",
-    "example": "2021-06-11 10:24:37.958"
+    "example": 0
   },
   "target": {
     "name": "label",
@@ -34,42 +34,42 @@
       "name": "back_x",
       "description": "acceleration of back sensor in x-direction (down) in the unit g",
       "dataType": "NUMERIC",
-      "example": -0.978027,
+      "example": -0.94655274,
       "nullable": false
     },
     {
       "name": "back_y",
       "description": "acceleration of back sensor in y-direction (left) in the unit g",
       "dataType": "NUMERIC",
-      "example": -0.223633,
+      "example": -0.0455736899999999,
       "nullable": false
     },
     {
       "name": "back_z",
       "description": "acceleration of back sensor in z-direction (forward) in the unit g",
       "dataType": "NUMERIC",
-      "example": 0.049561,
+      "example": 0.26327393,
       "nullable": false
     },
     {
       "name": "thigh_x",
       "description": "acceleration of thigh sensor in x-direction (down) in the unit g",
       "dataType": "NUMERIC",
-      "example": -0.992676,
+      "example": -0.96489748,
       "nullable": false
     },
     {
       "name": "thigh_y",
       "description": "acceleration of thigh sensor in y-direction (left) in the unit g",
       "dataType": "NUMERIC",
-      "example": 0.125,
+      "example": -0.0509302099999999,
       "nullable": false
     },
     {
       "name": "thigh_z",
       "description": "acceleration of thigh sensor in z-direction (forward) in the unit g",
       "dataType": "NUMERIC",
-      "example": -0.1521,
+      "example": 0.0299950899999999,
       "nullable": false
     }
   ]
