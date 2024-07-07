@@ -219,3 +219,14 @@ time_series_annotation,eeg_eye_state,14,F4,feature,NUMERIC,Electroencephalogram 
 time_series_annotation,eeg_eye_state,15,F8,feature,NUMERIC,Electroencephalogram (EEG) sensor data from F8 sensor
 time_series_annotation,eeg_eye_state,16,AF4,feature,NUMERIC,Electroencephalogram (EEG) sensor data from AF4 sensor
 time_series_annotation,eeg_eye_state,17,eyeDetection,target,CATEGORICAL,'1' indicates the eye-closed and '0' the eye-open state.
+time_series_annotation,emg_gestures,1,subject_trail,id,TEXT,Unique identifier for subject and trail
+time_series_annotation,emg_gestures,2,time,time,INT,Time step as integer
+time_series_annotation,emg_gestures,3,channel1,feature,NUMERIC,Channel 1 of the MYO Thalmic bracelet
+time_series_annotation,emg_gestures,4,channel2,feature,NUMERIC,Channel 2 of the MYO Thalmic bracelet
+time_series_annotation,emg_gestures,5,channel3,feature,NUMERIC,Channel 3 of the MYO Thalmic bracelet
+time_series_annotation,emg_gestures,6,channel4,feature,NUMERIC,Channel 4 of the MYO Thalmic bracelet
+time_series_annotation,emg_gestures,7,channel5,feature,NUMERIC,Channel 5 of the MYO Thalmic bracelet
+time_series_annotation,emg_gestures,8,channel6,feature,NUMERIC,Channel 6 of the MYO Thalmic bracelet
+time_series_annotation,emg_gestures,9,channel7,feature,NUMERIC,Channel 7 of the MYO Thalmic bracelet
+time_series_annotation,emg_gestures,10,channel8,feature,NUMERIC,Channel 8 of the MYO Thalmic bracelet
+time_series_annotation,emg_gestures,11,class,target,CATEGORICAL,"The label of gestures (0 - unmarked data, 1 - hand at rest, 2 - hand clenched in a fist, 3 - wrist flexion,4 â€“ wrist extension, 5 radial deviations, 6 - ulnar deviations, 7 - extended palm (the gesture was not performed by all subjects).)"
