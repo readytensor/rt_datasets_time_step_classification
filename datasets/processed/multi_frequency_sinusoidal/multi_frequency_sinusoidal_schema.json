@@ -1,0 +1,40 @@
+{
+  "title": "Multi-Frequency Sinusoidal Signals",
+  "description": "The Multi-Frequency Sinusoidal Signals with Noise Dataset is a synthetic dataset designed for time step classification tasks, particularly in the context of signal processing and frequency classification. It consists of timeseries samples with varying lengths, each composed of segments generated from sinusoidal signals with different frequencies and an additional noise field. Each sample includes continuous observations and corresponding frequency labels for each timestep. The dataset is useful for training and testing machine learning algorithms to develop and evaluate methods for accurately classifying the underlying frequency of signals amidst noise. ",
+  "modelCategory": "time_series_annotation",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "frequency": "TODO",
+  "idField": {
+    "name": "sample_id",
+    "description": "Unique sample id"
+  },
+  "timeField": {
+    "name": "time_step",
+    "description": "Time step as integer",
+    "dataType": "INT",
+    "example": 0
+  },
+  "target": {
+    "name": "label",
+    "description": "Categorical target representing one of the 5 frequencies: [0.5, 1.0, 1.5, 2.0, 2.5].",
+    "classes": [0.5, 1.0, 1.5, 2.0, 2.5]
+  },
+  "features": [
+    {
+      "name": "observation",
+      "description": "Sinusoidal signal observation",
+      "dataType": "NUMERIC",
+      "example": 0.0272,
+      "nullable": false
+    },
+    {
+      "name": "noise",
+      "description": "Pure noise ",
+      "dataType": "NUMERIC",
+      "example": 1.5242,
+      "nullable": false
+    }
+  ]
+}
