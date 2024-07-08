@@ -1,6 +1,6 @@
 {
   "title": "RoomOccupanyDetection",
-  "description": "Experimental data used for binary classification (room occupancy) from Temperature,Humidity,Light and CO2. Ground-truth occupancy was obtained from time stamped pictures that were taken every minute.",
+  "description": "Experimental data used for binary classification (room occupancy) from Temperature, Humidity, Light and CO2. Ground-truth occupancy was obtained from time stamped pictures that were taken every minute. Reference: Luis M. Candanedo, V\u00e9ronique Feldheim. Energy and Buildings. Volume 112, 15 January 2016, Pages 28-39. Source: https://github.com/LuisM78/Occupancy-detection-data",
   "modelCategory": "time_series_annotation",
   "schemaVersion": 1.0,
   "inputDataFormat": "CSV",
