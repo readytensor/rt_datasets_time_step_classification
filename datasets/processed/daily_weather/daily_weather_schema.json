@@ -1,0 +1,172 @@
+{
+  "title": "Daily Weather in 26 World Cities",
+  "description": "This dataset spans 3 years and includes daily weather measurements for 26 cities worldwide. It comprises 17 weather parameters, making it suitable for both multi-variate and single-series forecasting tasks. With data from January 2020 to December 2022, it's an ideal resource for forecasting the 'temperature' series while leveraging other weather measurements as potential exogenous factors.",
+  "modelCategory": "time_series_annotation",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "frequency": "DAILY",
+  "idField": {
+    "name": "location",
+    "description": "City of the series."
+  },
+  "timeField": {
+    "name": "date",
+    "description": "Date of the weather observation.",
+    "dataType": "DATE",
+    "example": "2020-01-01"
+  },
+  "target": {
+    "name": "weather_descriptions",
+    "description": "[Cloudy, Partly cloudy, Sunny, Patchy rain possible, Overcast, Moderate rain at times, Moderate or heavy rain shower, Heavy rain at times, Light freezing rain, Moderate or heavy snow showers, Patchy moderate snow, Moderate snow]",
+    "classes": [
+      "Cloudy",
+      "Heavy rain at times",
+      "Light freezing rain",
+      "Moderate or heavy rain shower",
+      "Moderate or heavy snow showers",
+      "Moderate rain at times",
+      "Moderate snow",
+      "Overcast",
+      "Partly cloudy",
+      "Patchy moderate snow",
+      "Patchy rain possible",
+      "Sunny"
+    ]
+  },
+  "features": [
+    {
+      "name": "maxtemp",
+      "description": "Maximum temperature for the day in Celcius.",
+      "dataType": "NUMERIC",
+      "example": 34,
+      "nullable": false
+    },
+    {
+      "name": "mintemp",
+      "description": "Minimum temperature for the day in Celcius",
+      "dataType": "NUMERIC",
+      "example": 26,
+      "nullable": false
+    },
+    {
+      "name": "avgtemp",
+      "description": "Average temperature for the day in Celcius",
+      "dataType": "NUMERIC",
+      "example": 30,
+      "nullable": false
+    },
+    {
+      "name": "sunhour",
+      "description": "Duration between sunrise and sunset in hours",
+      "dataType": "NUMERIC",
+      "example": 10.2,
+      "nullable": false
+    },
+    {
+      "name": "uv_index",
+      "description": "UV Index",
+      "dataType": "NUMERIC",
+      "example": 6,
+      "nullable": false
+    },
+    {
+      "name": "wind_speed",
+      "description": "Maximum wind speed in kilometers per hour",
+      "dataType": "NUMERIC",
+      "example": 16,
+      "nullable": false
+    },
+    {
+      "name": "wind_degree",
+      "description": "Wind direction in degrees",
+      "dataType": "NUMERIC",
+      "example": 68,
+      "nullable": false
+    },
+    {
+      "name": "precip",
+      "description": "Precipitation amount in millimeters",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "humidity",
+      "description": "Humidity as percentage",
+      "dataType": "NUMERIC",
+      "example": 44,
+      "nullable": false
+    },
+    {
+      "name": "visibility",
+      "description": "Average visibility in km",
+      "dataType": "NUMERIC",
+      "example": 10,
+      "nullable": false
+    },
+    {
+      "name": "pressure",
+      "description": "Pressure in millibars",
+      "dataType": "NUMERIC",
+      "example": 1015,
+      "nullable": false
+    },
+    {
+      "name": "cloudcover",
+      "description": "Cloud cover as percentage",
+      "dataType": "NUMERIC",
+      "example": 34,
+      "nullable": false
+    },
+    {
+      "name": "heatindex",
+      "description": "Heat index in celcius",
+      "dataType": "NUMERIC",
+      "example": 31,
+      "nullable": false
+    },
+    {
+      "name": "dewpoint",
+      "description": "Dew point in celcius",
+      "dataType": "NUMERIC",
+      "example": 18,
+      "nullable": false
+    },
+    {
+      "name": "windchill",
+      "description": "Windchill temperature in celcius",
+      "dataType": "NUMERIC",
+      "example": 30,
+      "nullable": false
+    },
+    {
+      "name": "windgust",
+      "description": "Wind gust in kmph",
+      "dataType": "NUMERIC",
+      "example": 23,
+      "nullable": false
+    },
+    {
+      "name": "feelslike",
+      "description": "Feels like in Celcius",
+      "dataType": "NUMERIC",
+      "example": 31,
+      "nullable": false
+    },
+    {
+      "name": "in_northern_hemisphere",
+      "description": "Whether the city is in northern hemisphere. This is a static covariate.",
+      "dataType": "NUMERIC",
+      "example": 1,
+      "nullable": false
+    },
+    {
+      "name": "in_southern_hemisphere",
+      "description": "Whether the city is in southern hemisphere. This is a static covariate.",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    }
+  ]
+}

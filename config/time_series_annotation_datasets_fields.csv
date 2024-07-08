@@ -84,3 +84,25 @@ time_series_annotation,emg_gestures,8,channel6,feature,NUMERIC,Channel 6 of the 
 time_series_annotation,emg_gestures,9,channel7,feature,NUMERIC,Channel 7 of the MYO Thalmic bracelet
 time_series_annotation,emg_gestures,10,channel8,feature,NUMERIC,Channel 8 of the MYO Thalmic bracelet
 time_series_annotation,emg_gestures,11,class,target,CATEGORICAL,"The label of gestures (0 - unmarked data, 1 - hand at rest, 2 - hand clenched in a fist, 3 - wrist flexion,4 â€“ wrist extension, 5 radial deviations, 6 - ulnar deviations, 7 - extended palm (the gesture was not performed by all subjects).)"
+time_series_annotation,daily_weather,1,location,id,TEXT,City of the series.
+time_series_annotation,daily_weather,2,date,time,DATE,Date of the weather observation.
+time_series_annotation,daily_weather,3,maxtemp,feature,NUMERIC,Maximum temperature for the day in Celcius.
+time_series_annotation,daily_weather,4,mintemp,feature,NUMERIC,Minimum temperature for the day in Celcius
+time_series_annotation,daily_weather,5,avgtemp,feature,NUMERIC,Average temperature for the day in Celcius
+time_series_annotation,daily_weather,6,sunhour,feature,NUMERIC,Duration between sunrise and sunset in hours
+time_series_annotation,daily_weather,7,uv_index,feature,NUMERIC,UV Index
+time_series_annotation,daily_weather,8,wind_speed,feature,NUMERIC,Maximum wind speed in kilometers per hour
+time_series_annotation,daily_weather,9,wind_degree,feature,NUMERIC,Wind direction in degrees
+time_series_annotation,daily_weather,10,precip,feature,NUMERIC,Precipitation amount in millimeters
+time_series_annotation,daily_weather,11,humidity,feature,NUMERIC,Humidity as percentage
+time_series_annotation,daily_weather,12,visibility,feature,NUMERIC,Average visibility in km
+time_series_annotation,daily_weather,13,pressure,feature,NUMERIC,Pressure in millibars
+time_series_annotation,daily_weather,14,cloudcover,feature,NUMERIC,Cloud cover as percentage
+time_series_annotation,daily_weather,15,heatindex,feature,NUMERIC,Heat index in celcius
+time_series_annotation,daily_weather,16,dewpoint,feature,NUMERIC,Dew point in celcius
+time_series_annotation,daily_weather,17,windchill,feature,NUMERIC,Windchill temperature in celcius
+time_series_annotation,daily_weather,18,windgust,feature,NUMERIC,Wind gust in kmph
+time_series_annotation,daily_weather,19,feelslike,feature,NUMERIC,Feels like in Celcius
+time_series_annotation,daily_weather,20,in_northern_hemisphere,feature,NUMERIC,Whether the city is in northern hemisphere. This is a static covariate.
+time_series_annotation,daily_weather,21,in_southern_hemisphere,feature,NUMERIC,Whether the city is in southern hemisphere. This is a static covariate.
+time_series_annotation,daily_weather,22,weather_descriptions,target,CATEGORICAL,"Weather description for the day. One of [Cloudy, Partly cloudy, Sunny, Patchy rain possible, Overcast, Moderate rain at times, Moderate or heavy rain shower, Heavy rain at times, Light freezing rain, Moderate or heavy snow showers, Patchy moderate snow, Moderate snow]"
