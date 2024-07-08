@@ -31,7 +31,7 @@ def load_metadata(dataset_cfg_path: str) -> pd.DataFrame:
     pd.DataFrame: The dataset metadata.
     """
     # Load the dataset metadata
-    dataset_metadata = pd.read_csv(dataset_cfg_path)
+    dataset_metadata = pd.read_csv(dataset_cfg_path, encoding="latin-1")
     # Apply the function to each element in the DataFrame
     dataset_metadata = dataset_metadata.apply(strip_quotes)
     return dataset_metadata
