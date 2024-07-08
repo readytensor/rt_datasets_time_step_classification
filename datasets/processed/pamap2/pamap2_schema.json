@@ -1,0 +1,256 @@
+{
+  "title": "Physical Activity Monitoring",
+  "description": "The PAMAP2 Physical Activity Monitoring dataset contains data of 18 different physical activities (such as walking, cycling, playing soccer, etc.), performed by 9 subjects wearing 3 inertial measurement units and a heart rate monitor. The dataset can be used for activity recognition and intensity estimation, while developing and applying algorithms of data processing, segmentation, feature extraction and classification.",
+  "modelCategory": "time_series_annotation",
+  "schemaVersion": 1.0,
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
+  "frequency": "OTHER",
+  "idField": {
+    "name": "subject_id",
+    "description": "..."
+  },
+  "timeField": {
+    "name": "timestamp",
+    "description": "...",
+    "dataType": "INT",
+    "example": 0
+  },
+  "target": {
+    "name": "activity_id",
+    "description": "1: lying, 2: sitting, 3: standing , 4: walking, 5: running, 6: cycling, 7: Nordic walking, 9: watching TV, 10: computer work, 11: car driving, 12: ascending stairs, 13: descending stairs, 16: vacuum cleaning, 17: ironing, 18: folding laundry, 19: house cleaning, 20: playing soccer, 24: rope jumping, 0: other",
+    "classes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      12,
+      13,
+      16,
+      17,
+      24
+    ]
+  },
+  "features": [
+    {
+      "name": "heart_rate",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 100.62,
+      "nullable": false
+    },
+    {
+      "name": "hand_temperature (c)",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 30.375,
+      "nullable": false
+    },
+    {
+      "name": "hand_x-acc16g",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 2.4296169,
+      "nullable": false
+    },
+    {
+      "name": "hand_y-acc16g",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 7.20771,
+      "nullable": false
+    },
+    {
+      "name": "hand_z-acc16g",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 6.1612721,
+      "nullable": false
+    },
+    {
+      "name": "hand_x-gyro",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.1866297629,
+      "nullable": false
+    },
+    {
+      "name": "hand_y-gyro",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 0.15193004284,
+      "nullable": false
+    },
+    {
+      "name": "hand_z-gyro",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.01158374178,
+      "nullable": false
+    },
+    {
+      "name": "hand_x-mag",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 10.0870028,
+      "nullable": false
+    },
+    {
+      "name": "hand_y-mag",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -65.808295,
+      "nullable": false
+    },
+    {
+      "name": "hand_z-mag",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -23.593924,
+      "nullable": false
+    },
+    {
+      "name": "chest_temperature (c)",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 32.213125,
+      "nullable": false
+    },
+    {
+      "name": "chest_x-acc16g",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 0.2433631412,
+      "nullable": false
+    },
+    {
+      "name": "chest_y-acc16g",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 9.6604802,
+      "nullable": false
+    },
+    {
+      "name": "chest_z-acc16g",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -1.6647956,
+      "nullable": false
+    },
+    {
+      "name": "chest_x-gyro",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 0.0009247387899999,
+      "nullable": false
+    },
+    {
+      "name": "chest_y-gyro",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.0114068235299999,
+      "nullable": false
+    },
+    {
+      "name": "chest_z-gyro",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.0324072103,
+      "nullable": false
+    },
+    {
+      "name": "chest_x-mag",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 1.11318739,
+      "nullable": false
+    },
+    {
+      "name": "chest_y-mag",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -50.931211000000005,
+      "nullable": false
+    },
+    {
+      "name": "chest_z-mag",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 43.852962,
+      "nullable": false
+    },
+    {
+      "name": "ankle_temperature (c)",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 30.75,
+      "nullable": false
+    },
+    {
+      "name": "ankle_x-acc16g",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 9.6854809,
+      "nullable": false
+    },
+    {
+      "name": "ankle_y-acc16g",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -1.8739864,
+      "nullable": false
+    },
+    {
+      "name": "ankle_z-acc16g",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.028711106,
+      "nullable": false
+    },
+    {
+      "name": "ankle_x-gyro",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 0.00599300745,
+      "nullable": false
+    },
+    {
+      "name": "ankle_y-gyro",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -0.0109676358499999,
+      "nullable": false
+    },
+    {
+      "name": "ankle_z-gyro",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": 0.007021992191,
+      "nullable": false
+    },
+    {
+      "name": "ankle_x-mag",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -61.147079999999995,
+      "nullable": false
+    },
+    {
+      "name": "ankle_y-mag",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -36.759426,
+      "nullable": false
+    },
+    {
+      "name": "ankle_z-mag",
+      "description": "...",
+      "dataType": "NUMERIC",
+      "example": -58.300108,
+      "nullable": false
+    }
+  ]
+}

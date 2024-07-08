@@ -203,10 +203,17 @@ def generate_schemas(
         schema["encoding"] = dataset_row["encoding"]
         schema["frequency"] = dataset_row["frequency"]
 
-        # read dataset
-        dataset = pd.read_csv(
-            os.path.join(processed_datasets_path, dataset_name, f"{dataset_name}.csv")
+        csv_path = os.path.join(
+            processed_datasets_path, dataset_name, f"{dataset_name}.csv"
         )
+        zip_path = os.path.join(
+            processed_datasets_path, dataset_name, f"{dataset_name}.zip"
+        )
+
+        path = zip_path if os.path.exists(zip_path) else csv_path
+
+        # read dataset
+        dataset = pd.read_csv(path)
 
         schema["idField"] = create_id_section(dataset_name, features_config)
 
