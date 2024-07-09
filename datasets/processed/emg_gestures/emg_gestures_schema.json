@@ -1,7 +1,7 @@
 {
   "title": "EMG Gestures",
   "description": "For recording patterns, we used a MYO Thalmic bracelet worn on a user\u00e2\u20ac\u2122s forearm, and a PC with a Bluetooth receiver. The bracelet is equipped with eight sensors equally spaced around the forearm that simultaneously acquire myographic signals. The signals are sent through a Bluetooth interface to a PC. We present raw EMG data for 36 subjects while they performed series of static hand gestures.The subject performs two series, each of which consists of six (seven) basic gestures. Each gesture was performed for 3 seconds with a pause of 3 seconds between gestures.",
-  "modelCategory": "time_series_annotation",
+  "modelCategory": "time_step_classification",
   "schemaVersion": 1.0,
   "inputDataFormat": "CSV",
   "encoding": "utf-8",
@@ -19,72 +19,63 @@
   "target": {
     "name": "class",
     "description": "the label of gestures (0 - unmarked data, 1 - hand at rest, 2 - hand clenched in a fist, 3 - wrist flexion,4 \u00e2\u20ac\u201c wrist extension, 5 radial deviations, 6 - ulnar deviations, 7 - extended palm (the gesture was not performed by all subjects).)",
-    "classes": [
-      0.0,
-      1.0,
-      2.0,
-      3.0,
-      4.0,
-      5.0,
-      6.0,
-      7.0
-    ]
+    "classes": [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0]
   },
   "features": [
     {
       "name": "channel1",
       "description": "Channel 1 of the MYO Thalmic bracelet",
       "dataType": "NUMERIC",
-      "example": -4e-05,
+      "example": -4e-5,
       "nullable": false
     },
     {
       "name": "channel2",
       "description": "Channel 2 of the MYO Thalmic bracelet",
       "dataType": "NUMERIC",
-      "example": -2e-05,
+      "example": -2e-5,
       "nullable": false
     },
     {
       "name": "channel3",
       "description": "Channel 3 of the MYO Thalmic bracelet",
       "dataType": "NUMERIC",
-      "example": -1e-05,
+      "example": -1e-5,
       "nullable": false
     },
     {
       "name": "channel4",
       "description": "Channel 4 of the MYO Thalmic bracelet",
       "dataType": "NUMERIC",
-      "example": -2e-05,
+      "example": -2e-5,
       "nullable": false
     },
     {
       "name": "channel5",
       "description": "Channel 5 of the MYO Thalmic bracelet",
       "dataType": "NUMERIC",
-      "example": -1e-05,
+      "example": -1e-5,
       "nullable": false
     },
     {
       "name": "channel6",
       "description": "Channel 6 of the MYO Thalmic bracelet",
       "dataType": "NUMERIC",
-      "example": -1e-05,
+      "example": -1e-5,
       "nullable": false
     },
     {
       "name": "channel7",
       "description": "Channel 7 of the MYO Thalmic bracelet",
       "dataType": "NUMERIC",
-      "example": 2e-05,
+      "example": 2e-5,
       "nullable": false
     },
     {
       "name": "channel8",
       "description": "Channel 8 of the MYO Thalmic bracelet",
       "dataType": "NUMERIC",
-      "example": -1e-05,
+      "example": -1e-5,
       "nullable": false
     }
   ]

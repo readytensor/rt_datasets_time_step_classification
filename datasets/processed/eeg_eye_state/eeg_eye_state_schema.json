@@ -1,7 +1,7 @@
 {
   "title": "EEG Eye State",
   "description": "The EEG Eye State Dataset consists of 14 EEG values and an additional value indicating the eye state. The data is derived from a continuous EEG measurement recorded using the Emotiv EEG Neuroheadset over a duration of 117 seconds. The eye state was detected via a camera during the EEG measurement and was manually added to the file after analyzing the video frames. A value of '1' indicates the eye-closed state, while '0' indicates the eye-open state. The dataset values are in chronological order, with the earliest measurement at the top. This dataset is particularly useful for time step classification tasks, aiming to classify the eye state based on the EEG values. Source: https://archive.ics.uci.edu/dataset/264/eeg+eye+state",
-  "modelCategory": "time_series_annotation",
+  "modelCategory": "time_step_classification",
   "schemaVersion": 1.0,
   "inputDataFormat": "CSV",
   "encoding": "utf-8",

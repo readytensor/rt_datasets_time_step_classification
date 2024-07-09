@@ -1,7 +1,7 @@
 {
   "title": "Physical Activity Monitoring",
   "description": "The PAMAP2 Physical Activity Monitoring dataset contains data of 18 different physical activities, performed by 9 subjects wearing 3 inertial measurement units and a heart rate monitor. The PAMAP2 Physical Activity Monitoring dataset contains data of 18 different physical activities (such as walking, cycling, playing soccer, etc.), performed by 9 subjects wearing 3 inertial measurement units and a heart rate monitor. The dataset can be used for activity recognition and intensity estimation, while developing and applying algorithms of data processing, segmentation, feature extraction and classification. Source: https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring",
-  "modelCategory": "time_series_annotation",
+  "modelCategory": "time_step_classification",
   "schemaVersion": 1.0,
   "inputDataFormat": "CSV",
   "encoding": "utf-8",
