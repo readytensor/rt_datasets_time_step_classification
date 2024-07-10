@@ -48,7 +48,7 @@ time_step_classification,pamap2,32,ankle_x-mag,feature,NUMERIC,ankle_x-mag
 time_step_classification,pamap2,33,ankle_y-mag,feature,NUMERIC,ankle_y-mag
 time_step_classification,pamap2,34,ankle_z-mag,feature,NUMERIC,ankle_z-mag
 time_step_classification,har70plus,1,subject_id,id,INT,Unique subject identifier
-time_step_classification,har70plus,2,timestamp,time,DATETIME,Time of observation
+time_step_classification,har70plus,2,timestamp,time,INT,Time step as an integer
 time_step_classification,har70plus,3,back_x,feature,NUMERIC,acceleration of back sensor in x-direction (down) in the unit g
 time_step_classification,har70plus,4,back_y,feature,NUMERIC,acceleration of back sensor in y-direction (left) in the unit g
 time_step_classification,har70plus,5,back_z,feature,NUMERIC,acceleration of back sensor in z-direction (forward) in the unit g
