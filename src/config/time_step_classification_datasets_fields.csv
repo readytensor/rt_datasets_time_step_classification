@@ -1,0 +1,80 @@
+model_category,name,field_num,field_name,field_type,data_type,field_description
+time_step_classification,hmm_continuous,1,sample_id,id,INT,Unique sample id
+time_step_classification,hmm_continuous,2,label,target,CATEGORICAL,Label for each time step in the sample
+time_step_classification,hmm_continuous,3,observation_dim_1,feature,NUMERIC,Feature dimension 1
+time_step_classification,hmm_continuous,4,observation_dim_2,feature,NUMERIC,Feature dimension 2
+time_step_classification,hmm_continuous,5,observation_dim_3,feature,NUMERIC,Feature dimension 3
+time_step_classification,hmm_continuous,6,timestep,time,INT,Time step as an integer
+time_step_classification,occupancy_detection,1,id,id,INT,Unique series id
+time_step_classification,occupancy_detection,2,date,time,DATETIME,The date and time of the observation
+time_step_classification,occupancy_detection,3,Temperature,feature,NUMERIC,Temperature of the room in Celsius
+time_step_classification,occupancy_detection,4,Humidity,feature,NUMERIC,Relative humidity percent
+time_step_classification,occupancy_detection,5,Light,feature,NUMERIC,Light in Lux
+time_step_classification,occupancy_detection,6,CO2,feature,NUMERIC,CO2 lin ppm
+time_step_classification,occupancy_detection,7,HumidityRatio,feature,NUMERIC,Derived quantity from temperature and relative humidity in kgwater-vapor/kg-air
+time_step_classification,occupancy_detection,8,Room_Occupancy_Count,target,CATEGORICAL,0 or 1 (0 for not occupied and 1 for occupied status)
+time_step_classification,pamap2,1,subject_id,id,INT,subject_id
+time_step_classification,pamap2,2,timestamp,time,INT,timestamp
+time_step_classification,pamap2,3,activity_id,target,CATEGORICAL,activity_id
+time_step_classification,pamap2,4,heart_rate,feature,NUMERIC,heart_rate
+time_step_classification,pamap2,5,hand_temperature (c),feature,NUMERIC,hand_temperature (c)
+time_step_classification,pamap2,6,hand_x-acc16g,feature,NUMERIC,hand_x-acc16g
+time_step_classification,pamap2,7,hand_y-acc16g,feature,NUMERIC,hand_y-acc16g
+time_step_classification,pamap2,8,hand_z-acc16g,feature,NUMERIC,hand_z-acc16g
+time_step_classification,pamap2,9,hand_x-gyro,feature,NUMERIC,hand_x-gyro
+time_step_classification,pamap2,10,hand_y-gyro,feature,NUMERIC,hand_y-gyro
+time_step_classification,pamap2,11,hand_z-gyro,feature,NUMERIC,hand_z-gyro
+time_step_classification,pamap2,12,hand_x-mag,feature,NUMERIC,hand_x-mag
+time_step_classification,pamap2,13,hand_y-mag,feature,NUMERIC,hand_y-mag
+time_step_classification,pamap2,14,hand_z-mag,feature,NUMERIC,hand_z-mag
+time_step_classification,pamap2,15,chest_temperature (c),feature,NUMERIC,chest_temperature (c)
+time_step_classification,pamap2,16,chest_x-acc16g,feature,NUMERIC,chest_x-acc16g
+time_step_classification,pamap2,17,chest_y-acc16g,feature,NUMERIC,chest_y-acc16g
+time_step_classification,pamap2,18,chest_z-acc16g,feature,NUMERIC,chest_z-acc16g
+time_step_classification,pamap2,19,chest_x-gyro,feature,NUMERIC,chest_x-gyro
+time_step_classification,pamap2,20,chest_y-gyro,feature,NUMERIC,chest_y-gyro
+time_step_classification,pamap2,21,chest_z-gyro,feature,NUMERIC,chest_z-gyro
+time_step_classification,pamap2,22,chest_x-mag,feature,NUMERIC,chest_x-mag
+time_step_classification,pamap2,23,chest_y-mag,feature,NUMERIC,chest_y-mag
+time_step_classification,pamap2,24,chest_z-mag,feature,NUMERIC,chest_z-mag
+time_step_classification,pamap2,25,ankle_temperature (c),feature,NUMERIC,ankle_temperature (c)
+time_step_classification,pamap2,26,ankle_x-acc16g,feature,NUMERIC,ankle_x-acc16g
+time_step_classification,pamap2,27,ankle_y-acc16g,feature,NUMERIC,ankle_y-acc16g
+time_step_classification,pamap2,28,ankle_z-acc16g,feature,NUMERIC,ankle_z-acc16g
+time_step_classification,pamap2,29,ankle_x-gyro,feature,NUMERIC,ankle_x-gyro
+time_step_classification,pamap2,30,ankle_y-gyro,feature,NUMERIC,ankle_y-gyro
+time_step_classification,pamap2,31,ankle_z-gyro,feature,NUMERIC,ankle_z-gyro
+time_step_classification,pamap2,32,ankle_x-mag,feature,NUMERIC,ankle_x-mag
+time_step_classification,pamap2,33,ankle_y-mag,feature,NUMERIC,ankle_y-mag
+time_step_classification,pamap2,34,ankle_z-mag,feature,NUMERIC,ankle_z-mag
+time_step_classification,har70plus,1,subject_id,id,INT,Unique subject identifier
+time_step_classification,har70plus,2,timestamp,time,INT,Time step as an integer
+time_step_classification,har70plus,3,back_x,feature,NUMERIC,acceleration of back sensor in x-direction (down) in the unit g
+time_step_classification,har70plus,4,back_y,feature,NUMERIC,acceleration of back sensor in y-direction (left) in the unit g
+time_step_classification,har70plus,5,back_z,feature,NUMERIC,acceleration of back sensor in z-direction (forward) in the unit g
+time_step_classification,har70plus,6,thigh_x,feature,NUMERIC,acceleration of thigh sensor in x-direction (down) in the unit g
+time_step_classification,har70plus,7,thigh_y,feature,NUMERIC,acceleration of thigh sensor in y-direction (left) in the unit g
+time_step_classification,har70plus,8,thigh_z,feature,NUMERIC,acceleration of thigh sensor in z-direction (forward) in the unit g
+time_step_classification,har70plus,9,label,target,CATEGORICAL,"Activity performed by the subject (1: walking  3: shuffling 4: stairs (ascending) 5: stairs (descending) 6: standing 7: sitting	8: lying)"
+time_step_classification,eeg_eye_state,1,subject_id,id,INT,Unique series id
+time_step_classification,eeg_eye_state,2,time,time,INT,Time step as an integer
+time_step_classification,eeg_eye_state,3,AF3,feature,NUMERIC,Electroencephalogram (EEG) sensor data from AF3 sensor
+time_step_classification,eeg_eye_state,4,F7,feature,NUMERIC,Electroencephalogram (EEG) sensor data from F7 sensor
+time_step_classification,eeg_eye_state,5,F3,feature,NUMERIC,Electroencephalogram (EEG) sensor data from F3 sensor
+time_step_classification,eeg_eye_state,6,FC5,feature,NUMERIC,Electroencephalogram (EEG) sensor data from FC5 sensor
+time_step_classification,eeg_eye_state,7,T7,feature,NUMERIC,Electroencephalogram (EEG) sensor data from T7 sensor
+time_step_classification,eeg_eye_state,8,P7,feature,NUMERIC,Electroencephalogram (EEG) sensor data from P7 sensor
+time_step_classification,eeg_eye_state,9,O1,feature,NUMERIC,Electroencephalogram (EEG) sensor data from O1 sensor
+time_step_classification,eeg_eye_state,10,O2,feature,NUMERIC,Electroencephalogram (EEG) sensor data from O2 sensor
+time_step_classification,eeg_eye_state,11,P8,feature,NUMERIC,Electroencephalogram (EEG) sensor data from P8 sensor
+time_step_classification,eeg_eye_state,12,T8,feature,NUMERIC,Electroencephalogram (EEG) sensor data from T8 sensor
+time_step_classification,eeg_eye_state,13,FC6,feature,NUMERIC,Electroencephalogram (EEG) sensor data from FC6 sensor
+time_step_classification,eeg_eye_state,14,F4,feature,NUMERIC,Electroencephalogram (EEG) sensor data from F4 sensor
+time_step_classification,eeg_eye_state,15,F8,feature,NUMERIC,Electroencephalogram (EEG) sensor data from F8 sensor
+time_step_classification,eeg_eye_state,16,AF4,feature,NUMERIC,Electroencephalogram (EEG) sensor data from AF4 sensor
+time_step_classification,eeg_eye_state,17,eyeDetection,target,CATEGORICAL,'1' indicates the eye-closed and '0' the eye-open state.
+time_step_classification,multi_frequency_sinusoidal,,sample_id,id,TEXT,Unique sample id
+time_step_classification,multi_frequency_sinusoidal,,time_step,time,INT,Time step as integer
+time_step_classification,multi_frequency_sinusoidal,,observation,feature,NUMERIC,Sinusoidal signal observation
+time_step_classification,multi_frequency_sinusoidal,,noise,feature,NUMERIC,Pure noise 
+time_step_classification,multi_frequency_sinusoidal,,label,target,CATEGORICAL,"Categorical target representing one of the 5 frequencies: [0.5, 1.0, 1.5, 2.0, 2.5]. "
